@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/bin/ls -la /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(pnpm rebuild:*)",
+      "Bash(node -e \"require\\(''better-sqlite3''\\)\")",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:api.e-stat.go.jp)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-turbopack --import-alias \"@/*\" --use-pnpm --yes)",
+      "Bash(/bin/ls /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/apps/web/node_modules/next/dist/docs/ 2>&1)",
+      "Bash(/bin/ls -R /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/apps/web/node_modules/next/dist/docs/01-app/)",
+      "Bash(npx:*)",
+      "Bash(pnpm --filter web add clsx tailwind-merge class-variance-authority tw-animate-css @base-ui/react lucide-react)",
+      "Bash(wc:*)",
+      "Bash(node:*)",
+      "Bash(mkdir -p /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/apps/web/src/app/api/timelines/[municipalityCode]/init-progress)",
+      "Bash(mkdir -p /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/apps/web/src/app/[municipalityCode]/personas)",
+      "Bash(pnpm:*)",
+      "Bash(find packages:*)",
+      "Bash(xargs sed:*)",
+      "Bash(ls:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(/usr/bin/stat -f '%z bytes' \"$f\")",
+      "Bash(done)",
+      "Bash(cp packages/cli/local-sns.db local-sns.db)",
+      "Bash(rm -f packages/cli/local-sns.db packages/cli/local-sns.db-wal packages/cli/local-sns.db-shm apps/web/local-sns.db apps/web/local-sns.db-wal apps/web/local-sns.db-shm)",
+      "Bash(curl -s http://localhost:3000/api/timelines)",
+      "Bash(ln -sf ../../.env /Users/hiromitsusasaki/src/github.com/hiromitsusasaki/local_sns_simulator/apps/web/.env)"
+    ]
+  }
+}

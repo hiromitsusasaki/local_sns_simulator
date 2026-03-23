@@ -1,0 +1,21 @@
+{
+  "name": "@local-sns/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@local-sns/core": "workspace:*",
+    "drizzle-orm": "^0.38.0",
+    "node-cron": "^3.0.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
